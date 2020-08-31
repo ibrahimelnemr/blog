@@ -1,0 +1,144 @@
+@import url("card-button.css");
+@import url("design.css");
+@import url("img.css");
+
+.grid-container-main {
+  display: grid;
+  justify-items: center;
+  grid-area: main;
+  width: auto;
+}
+
+.grid-container-side {
+  display: grid;
+  justify-items: center;
+  background-color: #2c89a0;
+  grid-area: side;
+  overflow: auto;
+
+}
+
+
+.flex-container-side {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.flex-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container {
+display: grid;
+height: auto;
+width: auto;
+margin: 0;
+
+grid-template-rows: 80px auto 80px;
+grid-template-columns: 360px auto;
+
+grid-template-areas:
+"side header"
+"side main"
+"footer footer";
+
+}
+
+.container-post {
+display: grid;
+height: 100vh;
+width: 100vw;
+grid-template-rows: 80px auto 80px;
+grid-template-columns: auto;
+
+grid-template-areas:
+"header"
+"main"
+"footer";
+
+}
+
+.header {
+  grid-area: header;
+  background-color: #164450;
+
+}
+
+.footer {
+  width: 100%;
+  display: grid;
+  grid-area: footer;
+  background-color: #164450;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main {
+  grid-area: main;
+  background-color: #37abc8;
+}
+
+
+.sidebar {
+grid-area: side;
+}
+
+@media (min-width:320px) and (max-width: 1200px) {
+.container {
+  grid-template-columns: auto;
+  grid-template-rows: /*80px*/auto auto auto auto/*80px*/;
+  grid-template-areas:
+  "header"
+  "main"
+  "side"
+  "footer";
+
+  }
+
+.container-post {
+  grid-template-rows: auto auto auto;
+  }
+
+.grid-container-side {
+  display: grid;
+  justify-items: center;
+  grid-area: side;
+  width: 100%;
+  overflow: visible;
+  }
+
+.flex-container-main {
+  width: 100vw;
+}
+
+  .flex-container-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .flex-container-bottom {
+    width: 100vw;
+    max-width: 80%;
+    justify-content: space-around;
+  }
+
+}

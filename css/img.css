@@ -1,0 +1,32 @@
+.img {
+  background-size: contain;
+
+}
+
+.img-1 {
+  background-image: url("../assets/images/img11.jpg");
+}
+
+.img-2 {
+  background-image: url("../assets/images/img9.jpg");
+}
+
+.img-3 {
+    background-image: url("../assets/images/img3.jpg");
+}
+
+.img-4 {
+    background-image: url("../assets/images/img4.jpg");
+}
+
+.img-5 {
+    background-image: url("../assets/images/img3.jpg");
+}
+
+.img-6 {
+    background-image: url("../assets/images/img6.jpg");
+}
+
+.img-7 {
+    background-image: url("../assets/images/img7.jpg");
+}
