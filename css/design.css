@@ -138,7 +138,7 @@ font-size: 50px;
     width: 100vw;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: 100
+    font-weight: 100;
     color: #fff;
     margin-left: 30px;
     margin-right: 30px;
@@ -211,9 +211,6 @@ font-size: 50px;
   width: 100%;
   font-size: 30px;
   padding: auto;
-  html {
-
-  }
 
 }
 

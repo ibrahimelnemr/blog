@@ -12,7 +12,8 @@
 .grid-container-side {
   display: grid;
   justify-items: center;
-  background-color: #2c89a0;
+  /* background-color: #2c89a0; */
+  background-color: #15223f;
   grid-area: side;
   overflow: auto;
 
@@ -76,15 +77,16 @@ grid-template-areas:
 
 .header {
   grid-area: header;
-  background-color: #164450;
-
+  /* background-color: #164450; */
+  background-color: #131f3a;
 }
 
 .footer {
   width: 100%;
   display: grid;
   grid-area: footer;
-  background-color: #164450;
+  /* background-color: #164450; */
+  background-color: #131f3a;
   align-items: center;
   justify-content: center;
 
@@ -92,7 +94,8 @@ grid-template-areas:
 
 .main {
   grid-area: main;
-  background-color: #37abc8;
+  background-color: #15223f;
+  /* background-color: #37abc8; */
 }
 
 
