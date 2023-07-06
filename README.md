@@ -1,4 +1,7 @@
-A blog website made using CSS flexbox and grid.
+# Overview
+
+A blog website made using CSS flexbox and grid. Created as the first project for the Udacity front-end web development certification.
 
 
-## https://iwelnemr.github.io/blog/
+### View Deployment
+https://iwelnemr.github.io/blog/
